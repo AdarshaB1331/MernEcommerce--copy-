@@ -47,7 +47,7 @@ const UserProfile = () => {
 
   const getOrder = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/users/getOrder", {
+      const res = await fetch("https://mernecommercebackend-lpgw.onrender.com/api/users/getOrder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -84,7 +84,7 @@ const UserProfile = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/users/updateProfile", {
+      const res = await fetch("https://mernecommercebackend-lpgw.onrender.com/api/users/updateProfile", {
         method: "PATCH",
         body: JSON.stringify({
           id: decoded._id,
