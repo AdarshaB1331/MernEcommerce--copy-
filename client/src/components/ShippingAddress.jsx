@@ -33,7 +33,7 @@ const ShippingAddress = ({ email }) => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/users/checkout", {
+      const res = await fetch("https://mernecommercebackend-lpgw.onrender.com/api/users/checkout", {
         method: "POST",
         body: JSON.stringify({
           firstName,
