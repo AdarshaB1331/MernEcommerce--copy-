@@ -25,7 +25,7 @@ const CreateAccount = () => {
   const createAccount = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/users/create-account",
+        "https://mernecommercebackend-lpgw.onrender.com/api/users/create-account",
         {
           method: "POST",
           body: JSON.stringify({ name, email, password }),
