@@ -18,7 +18,7 @@ const Homepage = () => {
         <Link to='/all' style={{maxWidth:'230px',fontSize:'17px',padding:'13px',fontWeight:'bold'}} type="button" className="btn btn-dark">Discover Our Products</Link>
       </div>
       <div>
-        <img src='./public/home-photo-1.webp' style={{height:'400px',marginLeft:'1000px',marginTop:'-400px'}} alt="Homepage Photo"></img>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlLi7JOEHTmrwXhf6mbtcPo_8g0tp0B5dpYw&s' style={{height:'400px',marginLeft:'1000px',marginTop:'-400px'}} alt="Homepage Photo"></img>
       </div>
     </div>
   )
